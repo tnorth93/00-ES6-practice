@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Any variable was being changed/reassigned throughout the code could not be initially assigned as const. This occurred in loops mostly where the variable would be changing value after each pass. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was really smoothe and simple. I'll definitely be using template literal notation from now on and I expect it to cut down on instances of having no spaces or too few spaces on the first go through.
